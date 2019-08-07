@@ -1,0 +1,35 @@
+.producto-item{
+  border: 2px dotted #e4e4e4;
+  margin-bottom: 5%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 18px 0px 18px 0px;
+}
+
+.producto-image > img{
+  width: 100%;
+}
+
+.producto-actions > input{
+  width: 20%;
+  display: inline-block;
+  text-align: right;
+}
+
+.producto-actions > button{
+  display: inline-block;
+  vertical-align: unset;
+}
+
+.producto-actions{
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
